@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            
+        </title>
+
+    
+
+    <style>
+        h1{
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: 2px;
+            text-align: center;
+            color:red;
+        }
+        body{
+            background-color:black;
+        }
+        .mainbox{
+            width: 80%;
+            height: 500px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            background-image:url(netflix.jpg);
+            background-size:100% 100%;
+            box-shadow:1px 2px 8px 6px red;
+            animation: slider 15s infinite linear;
+        }
+        @keyframes slider{
+            0%{  background-image:url(netflix.jpg)   }
+            20%{  background-image: url(sacred.jpg)}
+            40%{  background-image:url(witcher.jpg)  }
+            60%{   background-image: url(boy.jpg)}
+            80%{   background-image: url(daredevil.jpg); }
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <h1>
+            CONTENT COMING SOON...
+        </h1>
+        <div class="mainbox">
+            
+
+        </div>
+
+    </body>
+</html>
